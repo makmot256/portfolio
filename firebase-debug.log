@@ -1,0 +1,88 @@
+[debug] [2021-12-28T21:23:41.105Z] ----------------------------------------------------------------------
+[debug] [2021-12-28T21:23:41.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-28T21:23:41.119Z] CLI Version:   10.0.1
+[debug] [2021-12-28T21:23:41.120Z] Platform:      win32
+[debug] [2021-12-28T21:23:41.121Z] Node Version:  v16.13.1
+[debug] [2021-12-28T21:23:41.124Z] Time:          Wed Dec 29 2021 00:23:41 GMT+0300 (East Africa Time)
+[debug] [2021-12-28T21:23:41.125Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-28T21:23:41.545Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-28T21:23:41.546Z] > authorizing via signed-in user (makmotjohnson7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\projects\Makmot Johnson Portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-28T21:25:35.943Z] Using project from CLI flag: makmotjohnson-157a4
+[debug] [2021-12-28T21:25:35.955Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4 [none]
+[debug] [2021-12-28T21:25:47.340Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4
+[debug] [2021-12-28T21:26:08.434Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4
+    at Client.doRequest (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project makmotjohnson-157a4. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-12-28T21:26:46.622Z] ----------------------------------------------------------------------
+[debug] [2021-12-28T21:26:46.631Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-28T21:26:46.632Z] CLI Version:   10.0.1
+[debug] [2021-12-28T21:26:46.633Z] Platform:      win32
+[debug] [2021-12-28T21:26:46.634Z] Node Version:  v16.13.1
+[debug] [2021-12-28T21:26:46.639Z] Time:          Wed Dec 29 2021 00:26:46 GMT+0300 (East Africa Time)
+[debug] [2021-12-28T21:26:46.639Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-28T21:26:46.834Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-28T21:26:46.835Z] > authorizing via signed-in user (makmotjohnson7@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\projects\Makmot Johnson Portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-12-28T21:27:00.072Z] Using project from CLI flag: makmotjohnson-157a4
+[debug] [2021-12-28T21:27:00.084Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4 [none]
+[debug] [2021-12-28T21:27:11.474Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4
+[debug] [2021-12-28T21:27:11.502Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/makmotjohnson-157a4
+    at Client.doRequest (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:213:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Client.request (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:85:27)
+    at async init (C:\Users\user-pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project makmotjohnson-157a4. Please make sure the project exists and your account has permission to access it.
